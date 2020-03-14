@@ -1,5 +1,5 @@
 const INITIAL_STATE = {
-  toDoList:['limpar a casa']
+  toDoList:['Comprar chocolate']
 }
 
 function todos(state=INITIAL_STATE, action){

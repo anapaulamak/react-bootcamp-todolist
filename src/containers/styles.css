@@ -1,0 +1,31 @@
+.inputArea{
+  display: flex;
+  flex-direction: column;
+
+}
+input{
+  border-radius: 8px;
+  border: solid 1px lightgray;
+  height: 30px;
+  padding: 0px 10px;
+  outline: none;
+}
+button {
+  border: none;
+  height: 30px;
+  width: 250px;
+  border-radius: 8px;
+  background-color: #f17979;
+  margin: 10px 0px;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+}
+ul{
+  list-style: none;
+  padding: 10px;
+}
+
+ul li:before {
+  content: '✓';
+}

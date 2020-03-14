@@ -7,11 +7,13 @@ import store from './store'
 
 function App() {
   return (
-    <Provider store={store}>
-      <h1>To do List</h1>
-      <AddTodo />
-      <ToDoList />
-    </Provider>
+    <div className="App">
+      <Provider store={store}>
+        <h1>Lista de tarefas</h1>
+        <AddTodo />
+        <ToDoList />
+      </Provider>
+    </div>
   );
 }
 

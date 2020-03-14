@@ -1,5 +1,6 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
+import './styles.css'
 
 const ToDoList = () => {
   const todoList = useSelector(state => state.toDoList)
